@@ -1,0 +1,75 @@
+
+@import url(//db.onlinewebfonts.com/c/647a7208a3f353750207213a569815d4?family=Chronicle+Display);
+
+body{
+    background-image: url("/images/BG\ Hero.png");
+    position: relative;
+}
+
+.header{
+    display: flex;
+
+    padding: 20px;
+    justify-content: space-around;
+
+    color:white;
+}
+
+
+.logo {
+
+
+    font-family: Chronicle Display;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+.center_text_header{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.account_place img{
+    color:black
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.center_text{
+
+    color: white;
+
+    font-family: Chronicle Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: 0em; 
+    text-align: left;
+
+}
+
+.social p{
+    font-size: 18px;
+    line-height: 22px;
+    transform: rotate(90deg);
+    
+    
+}
+.social{
+    height:90px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    
+}
