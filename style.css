@@ -3,7 +3,9 @@
 
 body{
     background-image: url("/images/BG\ Hero.png");
+    background-repeat: no-repeat;
     position: relative;
+    
 }
 
 .wrapp {
@@ -56,11 +58,16 @@ body{
     color:black
 }
 
-.content {
+.content_header {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
     align-items: center;
+
+    width: calc(100%);
+
+    top:140px;
     
 }
 
@@ -116,4 +123,47 @@ body{
 .slider a {
     text-decoration: none;
     color: white;
+}
+
+.background {
+    position: absolute;
+    background:url("/images/MG.png")   ;
+    width: calc(100% );
+    height: 1222px;
+    top:200px;
+
+}
+
+.background_mountain_man{
+    position: absolute;
+    background: url('/images/VG.png') no-repeat;
+
+    top:551px;
+    width: calc(100% );
+    height: 922px;
+}
+
+.background_content{
+    position: absolute;
+    background: url("/images/BG\ Content.png") no-repeat ;
+    width: calc(100% );
+    height: 922px;
+
+    top: 1000px;
+
+}
+
+.content {
+    position: absolute;
+    background: #0b1d26;
+    width: calc(100% );
+    height: 1000px;
+    top:699px;
+}
+
+.content_container{
+    position: absolute;
+    color:white;
+
+    
 }
